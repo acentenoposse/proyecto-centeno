@@ -1,509 +1,384 @@
+.footer1 {
+  background-image: url(../imagenes/fondo1.jpg);
+  border: 2px solid cornsilk; }
+
+.footer {
+  padding: 20px;
+  display: flex;
+  text-align: center;
+  justify-content: space-evenly;
+  font-size: medium;
+  color: white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-transform: uppercase;
+  font-weight: bold; }
+
+.footer_ {
+  display: flex;
+  justify-content: center; }
+
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
 
-.encabezado{
-    padding: 1rem;
-    color: rgb(229, 229, 206);
-    background-color: rgb(19, 18, 18);
-    text-align: justify;
-    font-family: Helvetica, sans-serif;
-    font-size: 18px;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    text-decoration: none;
-    font-weight: lighter;
-    
-    }
-    
-    .seccionfotos1{
-        background-image: url(../imagenes/fondo1.jpg);   
-    }
+.encabezado {
+  padding: 1rem;
+  color: #e5e5ce;
+  background-color: #131212;
+  text-align: justify;
+  font-family: Helvetica, sans-serif;
+  font-size: 18px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  text-decoration: none;
+  font-weight: lighter; }
 
+.seccionfotos1 {
+  background-image: url(../imagenes/fondo1.jpg); }
 
-    .nav1{
-        border: 1px solid white;
-        background-image: url(../imagenes/fondo1.jpg);
-        padding: 20px;
-        display: flex;
-        justify-content: center;
-        font-weight: bolder;
-        text-decoration: none;
-        list-style-type: none;
-        
-        
-    }
-   
-    .nav1 a{
-        color: aliceblue;
-        text-decoration: none;
-        font-size: larger;
-        
-    }
+.nav1 {
+  border: 1px solid white;
+  background-image: url(../imagenes/fondo1.jpg);
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  font-weight: bolder;
+  text-decoration: none;
+  list-style-type: none; }
 
+.nav1 a {
+  color: aliceblue;
+  text-decoration: none;
+  font-size: larger; }
 
-    .nav2{
-        margin-left: 20px;
-        text-decoration: none;
-        transition: font-size 0.5s;
-        font-family: Arial, Helvetica, sans-serif;
-      }
-      .nav2:hover{
-        font-size: 2rem;
-      }
+.nav2 {
+  margin-left: 20px;
+  text-decoration: none;
+  transition: font-size 0.5s;
+  font-family: Arial, Helvetica, sans-serif; }
 
-      .section1{
-    background: rgb(44,68,3);
-    background: linear-gradient(45deg, rgb(68, 67, 3) 51%, rgb(180, 152, 26) 100%); 
-    color: aliceblue;
-    padding: 1.5rem;
-    font-size: 28px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-        
-      }
+.nav2:hover {
+  font-size: 2rem; }
 
-      .section1_video{
-        width: 100%;
-        height: auto;
-        object-fit: cover;
-        
-      }
+.section1 {
+  background: #2c4403;
+  background: linear-gradient(45deg, #444303 51%, #b4981a 100%);
+  color: aliceblue;
+  padding: 1.5rem;
+  font-size: 28px;
+  font-family: Georgia, 'Times New Roman', Times, serif; }
 
-      .section1_parrafo{
-        text-align: center;
-        margin-top: 2rem;
-      }
+.section1_video {
+  width: 100%;
+  height: auto;
+  object-fit: cover; }
 
-.inicio1{
-    display: flex;
-    /* background: rgb(44,68,3);
+.section1_parrafo {
+  text-align: center;
+  margin-top: 2rem; }
+
+.inicio1 {
+  display: flex;
+  /* background: rgb(44,68,3);
 background: linear-gradient(45deg, rgba(44,68,3,1) 51%, rgba(161,180,26,1) 100%); */
+  padding-left: 60px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-bottom: 2px solid cornsilk; }
 
-    padding-left: 60px;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    border-bottom: 2px solid cornsilk;
-}
+.inicio1__texto {
+  font-size: 24px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  display: flex;
+  color: beige;
+  text-align: center;
+  max-width: 750px;
+  padding: 100px; }
 
-.inicio1__texto{
-    font-size: 24px;
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: bold;
-    display: flex;
-    color: beige;
+.inicio2 {
+  padding-top: 45px;
+  background-color: black;
+  color: beige;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly; }
+
+.inicio2-img {
+  transition: all 0.7s; }
+
+.inicio2-img:hover {
+  transform: scale(1.4); }
+
+.inicio2_ {
+  padding: 25px;
+  background-color: black;
+  color: beige;
+  font-size: larger;
+  display: flex;
+  justify-content: center; }
+
+/* incorporaciones */
+.titulo {
+  font-size: 25px;
+  font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  display: flex;
+  justify-content: center;
+  background: #2d3030;
+  background: radial-gradient(circle, #141414 0%, black 100%);
+  color: beige;
+  padding: 1rem;
+  margin-bottom: 0rem; }
+
+.subtitulo {
+  font-size: 25px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: beige;
+  text-transform: uppercase;
+  padding-left: 1.5rem;
+  text-decoration: none; }
+
+.enlacesinco {
+  padding: 1rem;
+  list-style: none;
+  text-align: start; }
+
+.enlacesinco_1 a {
+  font-size: 18px;
+  color: beige;
+  text-decoration: none;
+  padding: 0rem;
+  text-align: left; }
+
+.enlaces-bootstrap {
+  background: #2c4403;
+  background: linear-gradient(45deg, #444303 51%, #b4981a 100%);
+  padding-top: 0rem; }
+
+.subtitulo2 {
+  display: flex;
+  justify-content: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: white;
+  padding: 1.5rem; }
+
+.sectionform {
+  background: #2c4403;
+  background: linear-gradient(45deg, #444303 51%, #b4981a 100%);
+  color: beige;
+  text-decoration: none;
+  list-style-type: none;
+  font-size: 22px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(5, auto);
+  grid-template-areas: "for1 for5" "for2 for5" "for3 for6" "for4 for6" "for7 for7"; }
+
+.for1 {
+  grid-area: for1;
+  justify-self: center;
+  align-self: center; }
+
+.for2 {
+  grid-area: for2;
+  justify-self: center;
+  align-self: center; }
+
+.for3 {
+  grid-area: for3;
+  justify-self: center;
+  align-self: center;
+  font-size: large; }
+
+.for4 {
+  grid-area: for4;
+  justify-self: center;
+  align-self: center;
+  font-size: large; }
+
+.for5 {
+  grid-area: for5;
+  font-size: medium; }
+
+.for6 {
+  grid-area: for6;
+  justify-self: center;
+  align-self: center; }
+
+.for7 {
+  grid-area: for7;
+  justify-self: center;
+  align-self: center; }
+
+.preguntas {
+  background: #2c4403;
+  background: linear-gradient(45deg, #444303 51%, #b4981a 100%);
+  font-size: 22px;
+  color: azure;
+  padding: 1rem; }
+
+.preguntas p {
+  font-size: 20px; }
+
+.infoutil {
+  background-color: #131313;
+  padding: 1rem;
+  color: azure;
+  list-style-type: none;
+  display: grid;
+  grid-template-areas: "form1 form2 fomr3";
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
+  align-items: center; }
+
+.form1 {
+  grid-area: form1; }
+
+.form2 {
+  grid-area: form2; }
+
+.form3 {
+  grid-area: form3; }
+
+.subtgaleria {
+  background-color: #131212;
+  color: beige;
+  text-align: center;
+  font-size: 20px;
+  padding-bottom: 1rem;
+  font-family: 'Times New Roman', Times, serif; }
+
+.seccionfotos {
+  background: #454e4e;
+  background: radial-gradient(circle, #1d1f1f 0%, black 100%); }
+
+.seccion1gal {
+  background: #131414;
+  background: linear-gradient(0deg, #e9ecec 0%, black 100%);
+  text-align: center;
+  color: aliceblue;
+  font-family: 'Times New Roman', Times, serif; }
+
+.seccion1gal_text {
+  font-size: 30px;
+  padding-top: 1rem; }
+
+.seccion1gal_text2 {
+  font-size: 25px;
+  padding-bottom: 0.7rem;
+  padding-top: 1rem; }
+
+.carousel-item img {
+  height: 500px;
+  width: 250px;
+  object-fit: cover;
+  padding: 1rem;
+  padding-top: 0; }
+
+.titulogaleria {
+  background: #2c4403;
+  background: linear-gradient(45deg, #444303 51%, #b4981a 100%);
+  padding-top: 1rem;
+  padding-bottom: 0.5rem;
+  color: azure;
+  text-align: center; }
+
+.galeriacmn {
+  background: #2c4403;
+  background: linear-gradient(45deg, #444303 51%, #b4981a 100%);
+  color: aliceblue;
+  text-align: center; }
+
+.subtitulogaleria {
+  background: #2c4403;
+  background: linear-gradient(45deg, #444303 51%, #b4981a 100%);
+  color: azure;
+  padding-bottom: 1rem;
+  text-align: center; }
+
+.subtcancionero {
+  background-image: url(../imagenes/fondo1.jpg);
+  text-align: center;
+  font-size: 18px;
+  color: aliceblue;
+  font-weight: bold;
+  padding: 0.75rem; }
+
+.imgbanda {
+  background-color: #121212;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 1rem; }
+
+/* tablet*/
+/* mobile*/
+@media screen and (max-width: 599px) {
+  .encabezado {
     text-align: center;
-    max-width: 750px;
-    padding: 100px;
-}
-
-.inicio2{
-    padding-top: 45px;
-    background-color: rgb(0, 0, 0);
-    color: beige;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    
-    
-}
-.inicio2-img{
-    transition: all 0.7s;
-}
-.inicio2-img:hover{
-    transform: scale(1.4);
-}
-.inicio2_{
-    padding: 25px;
-    background-color: black;
-    color: beige;
-    font-size: larger;
-    display: flex;
-    justify-content: center;
-}
-
-.footer1{
-    background-image: url(../imagenes/fondo1.jpg);
-    border:  2px solid cornsilk;
-}
-
-.footer{
-    padding: 20px;
-    display: flex;
-    text-align: center;
-    justify-content: space-evenly;
-    font-size: medium;
-    color: rgb(255, 255, 255);
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    text-transform: uppercase;
-    font-weight: bold;
-    }
-
-.footer_{
-    display: flex;
-    justify-content: center;
-    }
-
-    /* incorporaciones */
- 
-    .titulo{
-        font-size: 25px;
-        font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-        display: flex;
-        justify-content: center;
-        background: rgb(45, 48, 48);
-background: radial-gradient(circle, rgb(20, 20, 20) 0%, rgba(0,0,0,1) 100%);
-        color: beige;
-        padding: 1rem;
-        margin-bottom: 0rem;
-    }
-
-    .subtitulo{
-        font-size: 25px;
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        color: beige;
-        text-transform: uppercase;
-        padding-left: 1.5rem;
-        text-decoration: none;
-        
-        
-    }
-
-    .enlacesinco{
-        
-        padding: 1rem;
-        list-style: none;
-        text-align: start;
-    }
-    .enlacesinco_1 a{
-        font-size: 18px;
-        color: beige;
-        text-decoration: none;
-        padding: 0rem;
-        text-align: left;
-    }
-    .enlaces-bootstrap{
-        background: rgb(44,68,3);
-    background: linear-gradient(45deg, rgb(68, 67, 3) 51%, rgb(180, 152, 26) 100%);
-    padding-top: 0rem;
-    
-    
-    }
-
-    .subtitulo2{
-        display: flex;
-        justify-content: center;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        color: rgb(255, 255, 255);
-        padding: 1.5rem;
-        
-    }
-    
-    
-
-    .sectionform{
-        background: rgb(44,68,3);
-    background: linear-gradient(45deg, rgb(68, 67, 3) 51%, rgb(180, 152, 26) 100%);
-        color: beige;
-        text-decoration: none;
-        list-style-type: none;
-        font-size: 22px;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(5, auto);
-        grid-template-areas:
-        "for1 for5"
-        "for2 for5"
-        "for3 for6"
-        "for4 for6"
-        "for7 for7";
-        }
-
-    .for1{
-        grid-area: for1 ;  
-        justify-self: center;
-        align-self: center;  
-        
-    }
-    .for2{
-        grid-area: for2 ; 
-        justify-self: center;
-        align-self: center; 
-          
-    }
-    .for3{
-        grid-area: for3 ;
-        justify-self: center;
-        align-self: center; 
-        font-size: large;
-    }
-    .for4{
-        grid-area: for4 ;
-        justify-self: center;
-        align-self: center; 
-        font-size: large;
-    }
-    .for5{
-        grid-area: for5 ;
-        font-size: medium;
-    }
-    .for6{
-        grid-area: for6 ;
-        justify-self: center;
-        align-self: center;
-      }
-
-    .for7{
-        grid-area: for7 ;
-        justify-self: center;
-        align-self: center;
-    }
-
-    .preguntas{
-        background: rgb(44,68,3);
-    background: linear-gradient(45deg, rgb(68, 67, 3) 51%, rgb(180, 152, 26) 100%);
-        font-size: 22px;
-        color: azure;
-        padding: 1rem;
-        }
-
-        .preguntas p{
-            font-size: 20px;
-        }
-    
-        .infoutil{
-            background-color: rgb(19, 19, 19);
-            padding: 1rem;
-            color: azure;
-            list-style-type: none;
-            display: grid;
-            grid-template-areas: 
-            "form1 form2 fomr3"
-            ;
-            grid-template-columns:repeat(2, 1fr);
-            justify-items: center;
-            align-items: center;     
-        }
-
-        .form1{
-        grid-area: form1;
-        }
-
-        .form2{
-            grid-area: form2;
-            }
-
-        .form3{
-            grid-area: form3;
-        }
-
-        .subtgaleria{
-            background-color: rgb(19, 18, 18);
-            color: beige;
-            text-align: center;
-            font-size: 20px;
-            padding-bottom: 1rem;
-            font-family: 'Times New Roman', Times, serif;
-            }
-
-           
-            .seccionfotos{
-                background: rgb(69,78,78);
-background: radial-gradient(circle, rgb(29, 31, 31) 0%, rgba(0,0,0,1) 100%);
-            }
-
-            .seccion1gal{
-                background: rgb(19,20,20);
-background: linear-gradient(0deg, rgb(233, 236, 236) 0%, rgba(0,0,0,1) 100%);
-                text-align: center;
-                color: aliceblue;
-                font-family: 'Times New Roman', Times, serif;  
-            }
-
-            .seccion1gal_text{
-                font-size: 30px;
-                padding-top: 1rem;
-            }
-
-            .seccion1gal_text2{
-                font-size: 25px;
-                padding-bottom: 0.7rem;
-                padding-top: 1rem;
-            }
-
-            .carousel-item img{
-                height: 500px;
-                width: 250px;
-                object-fit: cover;
-                padding: 1rem;
-                padding-top: 0;
-                
-            }
-            
-
-            .titulogaleria{
-                background: rgb(44,68,3);
-    background: linear-gradient(45deg, rgb(68, 67, 3) 51%, rgb(180, 152, 26) 100%);
-                padding-top: 1rem;
-                padding-bottom: 0.5rem;
-                color: azure;
-                text-align: center;
-            }
-
-            .galeriacmn{
-                background: rgb(44,68,3);
-    background: linear-gradient(45deg, rgb(68, 67, 3) 51%, rgb(180, 152, 26) 100%);
-                color: aliceblue;
-                text-align: center;
-
-            }
-
-            .subtitulogaleria{
-                background: rgb(44,68,3);
-    background: linear-gradient(45deg, rgb(68, 67, 3) 51%, rgb(180, 152, 26) 100%);
-                color: azure;
-                padding-bottom: 1rem;
-                text-align: center;
-            }
-
-            .subtcancionero{
-                background-image: url(../imagenes/fondo1.jpg);  
-                text-align: center;
-                font-size: 18px;
-                color: aliceblue;
-                font-weight: bold;
-                padding: 0.75rem;
-            }
-
-            .imgbanda{
-                background-color: rgb(18, 18, 18);
-                display: flex;
-                justify-content: space-evenly;
-                padding: 1rem;
-            }
-
-            /* tablet*/
-            @media screen and (max-width: 1023px){
-
-            }
- 
-
-            /* mobile*/
-            @media screen and (max-width: 599px){
-                .encabezado{
-                    text-align: center;
-                    font-size: 4px;
-                    color: rgb(240, 241, 241);
-                }
-
-                .encabezado img {
-                    height: 20px;
-                    width: 20px;
-                }
-
-                .nav1{
-                font-size: 5px;
-                
-                }
-
-                .inicio1{
-                    font-size: 10;
-                    padding: 0;
-                    display: block;
-                    
-                }
-                .inicio1 video{
-                    height: 175px;
-                    width: 350px;
-                    padding: 0;
-                    margin: 0;
-                }
-
-                .inicio1__texto{
-                    font-size: 9px;
-                    display: block;
-                    padding: 0;
-                }
-
-                .inicio2 img{
-                    height: 50px;
-                    width: 100px;
-
-                }
-                .inicio2_ span{
-                    font-size: 10px;
-                }
-                .footer{
-                    font-size: 9px;
-                }
-                .footer_ img{
-                    width: 20px;
-                    height: 20px;
-                }
-
-                .titulo{
-                    font-size: 14px;
-                    padding: 0.5rem;
-                }
-                .subtitulo{
-                    font-size: 14px;
-                    text-align: center;
-                }
-                .enlacesinco_1 a{
-                    font-size: 10px;
-                    text-align: center;
-                }
-                .subtitulo2{
-                    font-size: 15px;
-                    text-align: center;
-                }
-
-                .sectionform{
-                grid-template-columns: repeat(1, 1fr);
-                 grid-template-rows: repeat(7, auto);
-                grid-template-areas:
-                "for1"
-                "for2"
-                "for3"
-                "for4"
-                "for5"
-                "for6"
-                "for7";
-                font-size: 14px;
-                }
-
-                .preguntas{
-                    font-size: 14px;
-                }
-                .preguntas p{
-                    font-size: 12px;
-                }
-                .titulogaleria{
-                    font-size: 18px;
-                    text-align: center;
-                }
-                .subtitulogaleria{
-                    font-size: 12px;
-                    text-align: center;
-                }
-                .listgaleria{
-                    display: grid;
-                }
-            .subtcancionero{
-                font-size: 11px;
-            }
-
-            .imgbanda img{
-                width: 150px;
-                height: 75px;
-            }
-                }
-
-
-
-
-                
-
+    font-size: 4px;
+    color: #f0f1f1; }
+  .encabezado img {
+    height: 20px;
+    width: 20px; }
+  .nav1 {
+    font-size: 5px; }
+  .inicio1 {
+    font-size: 10;
+    padding: 0;
+    display: block; }
+  .inicio1 video {
+    height: 175px;
+    width: 350px;
+    padding: 0;
+    margin: 0; }
+  .inicio1__texto {
+    font-size: 9px;
+    display: block;
+    padding: 0; }
+  .inicio2 img {
+    height: 50px;
+    width: 100px; }
+  .inicio2_ span {
+    font-size: 10px; }
+  .footer {
+    font-size: 9px; }
+  .footer_ img {
+    width: 20px;
+    height: 20px; }
+  .titulo {
+    font-size: 14px;
+    padding: 0.5rem; }
+  .subtitulo {
+    font-size: 14px;
+    text-align: center; }
+  .enlacesinco_1 a {
+    font-size: 10px;
+    text-align: center; }
+  .subtitulo2 {
+    font-size: 15px;
+    text-align: center; }
+  .sectionform {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(7, auto);
+    grid-template-areas: "for1" "for2" "for3" "for4" "for5" "for6" "for7";
+    font-size: 14px; }
+  .preguntas {
+    font-size: 14px; }
+  .preguntas p {
+    font-size: 12px; }
+  .titulogaleria {
+    font-size: 18px;
+    text-align: center; }
+  .subtitulogaleria {
+    font-size: 12px;
+    text-align: center; }
+  .listgaleria {
+    display: grid; }
+  .subtcancionero {
+    font-size: 11px; }
+  .imgbanda img {
+    width: 150px;
+    height: 75px; } }

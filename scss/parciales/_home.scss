@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.encabezado{
+    padding: 1rem;
+    color: rgb(229, 229, 206);
+    background-color: rgb(19, 18, 18);
+    text-align: justify;
+    font-family: Helvetica, sans-serif;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-decoration: none;
+    font-weight: lighter;
+    
+    }
+    
+    .seccionfotos1{
+        background-image: url(../imagenes/fondo1.jpg);   
+    }
+
+
+    .nav1{
+        border: 1px solid white;
+        background-image: url(../imagenes/fondo1.jpg);
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        font-weight: bolder;
+        text-decoration: none;
+        list-style-type: none;
+        
+        
+    }
+   
+    .nav1 a{
+        color: aliceblue;
+        text-decoration: none;
+        font-size: larger;
+        
+    }
+
+
+    .nav2{
+        margin-left: 20px;
+        text-decoration: none;
+        transition: font-size 0.5s;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      .nav2:hover{
+        font-size: 2rem;
+      }
+
+      .section1{
+    background: rgb(44,68,3);
+    background: linear-gradient(45deg, rgb(68, 67, 3) 51%, rgb(180, 152, 26) 100%); 
+    color: aliceblue;
+    padding: 1.5rem;
+    font-size: 28px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+        
+      }
+
+      .section1_video{
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+        
+      }
+
+      .section1_parrafo{
+        text-align: center;
+        margin-top: 2rem;
+      }
+
+.inicio1{
+    display: flex;
+    /* background: rgb(44,68,3);
+background: linear-gradient(45deg, rgba(44,68,3,1) 51%, rgba(161,180,26,1) 100%); */
+
+    padding-left: 60px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-bottom: 2px solid cornsilk;
+}
+
+.inicio1__texto{
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    display: flex;
+    color: beige;
+    text-align: center;
+    max-width: 750px;
+    padding: 100px;
+}
+
+.inicio2{
+    padding-top: 45px;
+    background-color: rgb(0, 0, 0);
+    color: beige;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+    
+}
+.inicio2-img{
+    transition: all 0.7s;
+}
+.inicio2-img:hover{
+    transform: scale(1.4);
+}
+.inicio2_{
+    padding: 25px;
+    background-color: black;
+    color: beige;
+    font-size: larger;
+    display: flex;
+    justify-content: center;
+}

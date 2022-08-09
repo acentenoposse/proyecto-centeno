@@ -1,0 +1,141 @@
+/* incorporaciones */
+ 
+.titulo{
+    font-size: 25px;
+    font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: flex;
+    justify-content: center;
+    background: rgb(45, 48, 48);
+background: radial-gradient(circle, rgb(20, 20, 20) 0%, rgba(0,0,0,1) 100%);
+    color: beige;
+    padding: 1rem;
+    margin-bottom: 0rem;
+}
+
+.subtitulo{
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: beige;
+    text-transform: uppercase;
+    padding-left: 1.5rem;
+    text-decoration: none;
+    
+    
+}
+
+.enlacesinco{
+    
+    padding: 1rem;
+    list-style: none;
+    text-align: start;
+}
+.enlacesinco_1 a{
+    font-size: 18px;
+    color: beige;
+    text-decoration: none;
+    padding: 0rem;
+    text-align: left;
+}
+.enlaces-bootstrap{
+    background: rgb(44,68,3);
+background: linear-gradient(45deg, rgb(68, 67, 3) 51%, rgb(180, 152, 26) 100%);
+padding-top: 0rem;
+
+
+}
+
+.subtitulo2{
+    display: flex;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(255, 255, 255);
+    padding: 1.5rem;
+    
+}
+
+
+
+.sectionform{
+    background: rgb(44,68,3);
+background: linear-gradient(45deg, rgb(68, 67, 3) 51%, rgb(180, 152, 26) 100%);
+    color: beige;
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 22px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(5, auto);
+    grid-template-areas:
+    "for1 for5"
+    "for2 for5"
+    "for3 for6"
+    "for4 for6"
+    "for7 for7";
+    }
+
+.for1{
+    grid-area: for1 ;  
+    justify-self: center;
+    align-self: center;  
+    
+}
+.for2{
+    grid-area: for2 ; 
+    justify-self: center;
+    align-self: center; 
+      
+}
+.for3{
+    grid-area: for3 ;
+    justify-self: center;
+    align-self: center; 
+    font-size: large;
+}
+.for4{
+    grid-area: for4 ;
+    justify-self: center;
+    align-self: center; 
+    font-size: large;
+}
+.for5{
+    grid-area: for5 ;
+    font-size: medium;
+}
+.for6{
+    grid-area: for6 ;
+    justify-self: center;
+    align-self: center;
+  }
+
+.for7{
+    grid-area: for7 ;
+    justify-self: center;
+    align-self: center;
+}
+
+.preguntas{
+    background: rgb(44,68,3);
+background: linear-gradient(45deg, rgb(68, 67, 3) 51%, rgb(180, 152, 26) 100%);
+    font-size: 22px;
+    color: azure;
+    padding: 1rem;
+    }
+
+    .preguntas p{
+        font-size: 20px;
+    }
+
+    .infoutil{
+        background-color: rgb(19, 19, 19);
+        padding: 1rem;
+        color: azure;
+        list-style-type: none;
+        display: grid;
+        grid-template-areas: 
+        "form1 form2 fomr3"
+        ;
+        grid-template-columns:repeat(2, 1fr);
+        justify-items: center;
+        align-items: center;     
+    }

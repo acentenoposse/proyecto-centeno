@@ -1,0 +1,21 @@
+.footer1{
+    background-image: url(../imagenes/fondo1.jpg);
+    border:  2px solid cornsilk;
+}
+
+.footer{
+    padding: 20px;
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    font-size: medium;
+    color: rgb(255, 255, 255);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    }
+
+.footer_{
+    display: flex;
+    justify-content: center;
+    }
