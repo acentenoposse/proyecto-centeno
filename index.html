@@ -5,7 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inicio EA</title>
+    <link rel="stylesheet" href="CSS/bootstrap.min.css">
     <link rel="stylesheet" href="./CSS/estilos.css">
+    
 </head>
 <body>
     <header> 
@@ -13,7 +15,7 @@
             <a href="index.html"> 
             <img class="encabezado-imagen-1" src="imagenes/escudo1.png" alt="imagen del escudo" width="90" height="90">
             </a>
-            <h1>BIENVENIDOS A LA PAGINA OFICIAL DEL EJERCITO ARGENTINO</h1>
+            <h1 class="h1enc">BIENVENIDOS A LA PAGINA OFICIAL DEL EJERCITO ARGENTINO</h1>
             <a href="index.html">
             <img src="imagenes/escudo1.png" alt="imagen del escudo" width="90" height="90">
             </a>
@@ -37,18 +39,23 @@
     </header>
 
     <main>
-        <div>
-             <section>
-                <div class="inicio1"> <!--Seccion video y parrafo -->
-                     <video src="./videos/vid1.mp4" width="650" height="400" autoplay loop muted></video>
-                <div>
+        <section class="section1">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-6">
+                        <video class="section1_video" src="./videos/vid1.mp4" controls muted loop autoplay></video>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <p class="section1_parrafo">
+                            Esta es la pagina oficial del Ejercito Argentino, aqui podras obtener informacion acerca del ingreso, como de todos los cursos, carreras y servicios donde usted podra desempeñarse y prestar servicio dentro de esta Institucion historica, con mas de 200 años al servicio de la Patria.
+                    </p>
+                </div>
 
-                     <div class="inicio1__texto">
-                        <p>Esta es la pagina oficial del Ejercito Argentino, aqui podras obtener informacion acerca del ingreso, como de todos los cursos, carreras y servicios donde usted podra desempeñarse y prestar servicio dentro de esta Institucion historica, con mas de 200 años al servicio de la Patria.</p>
-                     </div>
-             </section>
-        </div>
- 
+                </div>
+            </div>
+            </section> 
+            
+            
      <section> <!-- Seccion de imagenes y link hacia galeria-->
             <div class="inicio2" >
                 <img class="inicio2-img" src="./imagenes/img1" alt="imagen 1" width="320" height="200">
@@ -89,5 +96,6 @@
         </div>
     </section>
     </footer>
+    <script src="./js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

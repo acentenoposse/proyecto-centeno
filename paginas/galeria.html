@@ -5,19 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Galeria</title>
+    <link rel="stylesheet" href="../CSS/bootstrap.min.css">
     <link rel="stylesheet" href="../CSS/estilos.css">
 </head>
 <body>
     <header>
-        <div class="encabezado"> <!--Parte superior con texto de bienvenida e imagenes -->
-            <a href="../index.html">
-            <img src="../imagenes/escudo1.png" alt="imagen del escudo" width="90" height="90">
+        <div  class="encabezado"> <!--Parte superior con texto de bienvenida e imagenes -->
+            <a href="index.html"> 
+            <img class="encabezado-imagen-1" src="../imagenes/escudo1.png" alt="imagen del escudo" width="90" height="90">
             </a>
             <h1>BIENVENIDOS A LA PAGINA OFICIAL DEL EJERCITO ARGENTINO</h1>
-            <a href="../index.html">
-                <img src="../imagenes/escudo1.png" alt="imagen del escudo" width="90" height="90">
-                </a>
+            <a href="index.html">
+             <img class="encabezado-imagen-1" src="../imagenes/escudo1.png" alt="imagen del escudo" width="90" height="90">
+            </a>
         </div>
+
 
         <section >
             <div> <!--header con los enlaces a las distintas paginas -->
@@ -35,51 +37,91 @@
     </header>
 
     <main> 
-        <section>
+        <section class="seccion1gal">
             <div>
-                <h1 class="titulo">GALERIA Y PASEO FOTOGRAFICO</h1>
+                <h1 class="seccion1gal_text">GALERIA Y PASEO FOTOGRAFICO</h1>
+                <H2 class="seccion1gal_text2">Aqui encontraras imagenes tanto de nuestras actividades como de nuestros establecimientos y personal profesional</H2>
             <div>
         <section>
+            <br>
 
-        <section>
-            <div>
-                <H2 class="subtgaleria">Aqui encontraras imagenes tanto de nuestras actividades como de nuestros establecimientos y personal profesional</H2>
-            </div>
-        </section>
-            <hr>
-<section class="galeria">
-            <div>
-                <h2 class="titulogaleria">EL COLEGIO MILITAR DE LA NACION</h2>
-                <h3 class="subtitulogaleria">Aqui se forman los futuros oficiales de nuestro Ejercito</h3>
-            </div>
-            <ul class="listgaleria">
-                <li><img src="../imagenes/CMN1" alt="cmn1" width="350" height="200"></li>
-                <li><img src="../imagenes/CMN2.jpg" alt="cmn2" width="350" height="200"></li>
-                <li><img src="../imagenes/CMN3.jpg" alt="cmn3" width="350" height="200"></li>
-            </ul>
-        
+            <section class="seccionfotos">
+                <section class="titulo_foto">
+                    <h1 class="seccion1gal_text2">COLEGIO MILITAR DE LA NACION</h1>
+                </section>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                                <div class="carousel-inner">
+                                  <div class="carousel-item active">
+                                    <img src="../imagenes/CMN1" class="d-block w-100" alt="...">
+                                  </div>
+                                  <div class="carousel-item">
+                                    <img src="../imagenes/CMN2.jpg" class="d-block w-100" alt="...">
+                                  </div>
+                                  <div class="carousel-item">
+                                    <img src="../imagenes/CMN3.jpg" class="d-block w-100" alt="...">
+                                  </div>
+                                </div>
+                              </div>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+               
+
+
 
             
-                <h2 class="titulogaleria">ESCUELA DE SUBOFICIALES SARGENTO CABRAL</h2>
-                <h3 class="subtitulogaleria">Es la institucion donde nuestros suboficiales se profesionalizan cada dia</h3>
-            <ul class="listgaleria">
-                <li><img src="../imagenes/esesc.jpg" alt="esesc1" widht="400" height="200"></li>
-                <li><img src="../imagenes/esesc2.jpg" alt="esesc2" widht="400" height="200"></li>
-                <li><img src="../imagenes/esesc1.jpg" alt="esesc3" widht="400" height="200"></li>
-            </ul>
+                <section class="titulo_foto">
+                    <h1 class="seccion1gal_text2">ESCUELA DE SUBOFICIALES</h1>
+                </section>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                                <div class="carousel-inner">
+                                  <div class="carousel-item active">
+                                    <img src="../imagenes/esesc.jpg" class="d-block w-100" alt="...">
+                                  </div>
+                                  <div class="carousel-item">
+                                    <img src="../imagenes/esesc1.jpg" class="d-block w-100" alt="...">
+                                  </div>
+                                  <div class="carousel-item">
+                                    <img src="../imagenes/esesc2.jpg" class="d-block w-100" alt="...">
+                                  </div>
+                                </div>
+                              </div>
+                        </div>
+                    </div>
+                </div>
+               <HR></HR>
 
-            <div>
-                <h2 class="titulogaleria">MUJERES DE VALORES PATRIOTAS</h2>
-                <h3 class="subtitulogaleria">La mujer como rol fundamental para el Ejercito</h3>
-
-                <ul class="listgaleria">
-                    <li><img src="../imagenes/mujeresea.jpg" alt="muj" widht="400" height="200"></li>
-                <li><img src="../imagenes/mujeresea2.jpg" alt="muj2" widht="400" height="200"></li>
-                <li><img src="../imagenes/mujeresea1" alt="muj3"widht= "400" height="200"></li>
-                </ul>
+                <section class="titulo_foto">
+                    <h1 class="seccion1gal_text2">LA MUJER EN EL EJERCITO</h1>
+                </section>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                              <div class="carousel-item active">
+                                <img src="../imagenes/mujeresea.jpg" class="d-block w-100" alt="...">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="../imagenes/mujeresea1" class="d-block w-100" alt="...">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="../imagenes/mujeresea2.jpg" class="d-block w-100" alt="...">
+                              </div>
+                            </div>
+                          </div>
+                    </div>
+                </div>
             </div>
-        </section>
-        </section>
+            </section>
+           
 
     </main>
     
@@ -107,5 +149,6 @@
             </div>
         </section>
     </footer>
+    <script src="../js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
