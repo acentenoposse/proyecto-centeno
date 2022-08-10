@@ -11,7 +11,7 @@
 <body>
     <header>
         <div  class="encabezado"> <!--Parte superior con texto de bienvenida e imagenes -->
-            <a href="index.html"> 
+            <a href="../index.html">  
             <img class="encabezado-imagen-1" src="../imagenes/escudo1.png" alt="imagen del escudo" width="90" height="90">
             </a>
             <h1>BIENVENIDOS A LA PAGINA OFICIAL DEL EJERCITO ARGENTINO</h1>
@@ -58,31 +58,36 @@
             </div>
         </section>
 
-        <section>
-        <form>
-            <div>
-            <ul class="infoutil">
-            <li class="form1"><h2>¿Te resulto util esta informacion?</h2>
-                <label for="si3">Si</label>
-                <input type="radio" name="util" value="si" id="si3">
-                <label for="no3">No</label>
-                <input type="radio" name="util" value="no" id="no3">
-            </li>
-            <div>
-
-                <div>
-                    <li class="form2" >
-                    <label for="preguntaextra">Ayudanos sugiriendo preguntas en el siguiente recuadro</label>
-                    <textarea name="preguntaextra" id="preguntaextra" cols="30" rows="10"></textarea>
-                </li>
+        <section class="section3">
+            <div class="container">
+                <div class="row">
+                    <div class="col-6 util">
+                        <h3>¿Te resultó util esta informacion?<h3>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                                <label class="form-check-label" for="inlineRadio1">Si</label>
+                              </div>
+                              <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                                <label class="form-check-label" for="inlineRadio2">No</label>
+                              </div>
+                              
+                    </div>
+                    <div class="col-6 util">
+                        <div class="form-floating">
+                            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 125px"></textarea>
+                            <label class="labelform" for="floatingTextarea2">Ayudanos sugiriendo preguntas nuevas</label>
+                          </div>
+                    </div>
+                    <div class="col-12 botoncito">
+                        <div class="col-12 botoncito"> 
+                            <button type="button" class="btn btn-success">Enviar formulario</button>
+                        </div>
+                    </div>
                 </div>
-
-                <div>
-                    <li class="form3" >
-                        <button>Enviar sugerencias</button>
-                    </li>
-                </div>
-        <form>
+            </div>
+        
+        
         </section>
 
     </main>

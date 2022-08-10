@@ -5,11 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inicio EA</title>
-    <link rel="stylesheet" href="CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="./CSS/bootstrap.min.css">
     <link rel="stylesheet" href="./CSS/estilos.css">
     
 </head>
-<body>
+<body  class="seccioncancionero">
     <header> 
         <div  class="encabezado"> <!--Parte superior con texto de bienvenida e imagenes -->
             <a href="index.html"> 
@@ -37,91 +37,38 @@
         </section>
     </header>
         <main>
-            <section class="section1">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-6">
-                            <video src="./videos/vid1.mp4" width="300" height="auto"></video>
-                        </div>
-                        <div class="col-6">
-                            <p>
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione, cupiditate aspernatur. Cumque, deserunt sunt dicta harum iure ad porro nisi pariatur, in excepturi, ab dolorem beatae veritatis molestias esse unde.
-                        </p></div>
-
-                    </div>
+<section class="section3">
+    <div class="container">
+        <div class="row">
+            <div class="col-6 util">
+                <h3>¿Te resultó util esta informacion?<h3>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                        <label class="form-check-label" for="inlineRadio1">Si</label>
+                      </div>
+                      <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                        <label class="form-check-label" for="inlineRadio2">No</label>
+                      </div>
+                      
+            </div>
+            <div class="col-6 util">
+                <div class="form-floating">
+                    <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 125px"></textarea>
+                    <label class="labelform" for="floatingTextarea2">Ayudanos sugiriendo preguntas nuevas</label>
+                  </div>
+            </div>
+            <div class="col-12 botoncito">
+                <div class="col-12 botoncito"> 
+                    <button type="button" class="btn btn-success">Enviar formulario</button>
                 </div>
+            </div>
+        </div>
+    </div>
 
-                <section>
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-12">
-                                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
-                                    <div class="carousel-indicators">
-                                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                                    </div>
-                                    <div class="carousel-inner">
-                                      <div class="carousel-item active">
-                                        <img src="./imagenes/CMN2.jpg" class="d-block w-100" alt="...">
-                                      </div>
-                                      <div class="carousel-item">
-                                        <img src="./imagenes/CMN2.jpg" class="d-block w-100" alt="...">
-                                      </div>
-                                      <div class="carousel-item">
-                                        <img src="./imagenes/CMN3.jpg" class="d-block w-100" alt="...">
-                                      </div>
-                                    </div>
-                                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                      <span class="visually-hidden">Previous</span>
-                                    </button>
-                                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                      <span class="visually-hidden">Next</span>
-                                    </button>
-                                  </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
 
-                <section>
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-6">
-                                
-                            </div>
-                        </div>
-                    </div>
-                </section>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-4">
-                            <div class="mb-3">
-                                <label for="exampleFormControlInput1" class="form-label">Nombre y Apellido</label>
-                                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Tu nombre">
-                              </div>
-                              <div class="mb-3">
-                                <label for="exampleFormControlInput1" class="form-label">Email address</label>
-                                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-                              </div>
-                              <div class="col-4">
-                                <select class="form-select" aria-label="Default select example">
-                                    <option selected>Open this select menu</option>
-                                    <option value="1">One</option>
-                                    <option value="2">Two</option>
-                                    <option value="3">Three</option>
-                                  </select>
-                              </div>
-                        </div>
-                    </div>
-                </div>
-
-                
-
-            </section>
+</section>
             
-            </main>
+        </main>
             <script src="./js/bootstrap.bundle.min.js"></script>
 </body>

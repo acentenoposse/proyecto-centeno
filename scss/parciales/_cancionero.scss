@@ -7,9 +7,28 @@
     padding: 0.75rem;
 }
 
-.imgbanda{
-    background-color: rgb(18, 18, 18);
-    display: flex;
-    justify-content: space-evenly;
-    padding: 1rem;
+.superiorcancionero{
+    padding-top: 10px;
+    background: rgb(69,78,78);
+background: radial-gradient(circle, rgb(29, 31, 31) 0%, rgba(0,0,0,1) 100%);
+text-align: center;
+
+}
+.titulocan{
+    color: aliceblue;
+    font-size: 25px;
+font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+color: beige;
+
+}
+
+.subtcan{
+    color: aliceblue;
+    font-size: 20px;
+font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+padding-bottom: 1rem; 
+}
+
+.seccioncancionero{
+    background-image: url(/imagenes/fondo1.jpg);
 }

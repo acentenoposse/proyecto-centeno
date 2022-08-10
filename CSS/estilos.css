@@ -1,6 +1,5 @@
 .footer1 {
-  background-image: url(../imagenes/fondo1.jpg);
-  border: 2px solid cornsilk; }
+  background-image: url(../imagenes/fondo1.jpg); }
 
 .footer {
   padding: 20px;
@@ -25,7 +24,8 @@
 .encabezado {
   padding: 1rem;
   color: #e5e5ce;
-  background-color: #131212;
+  background: #454e4e;
+  background: radial-gradient(circle, #1d1f1f 0%, black 100%);
   text-align: justify;
   font-family: Helvetica, sans-serif;
   font-size: 18px;
@@ -39,7 +39,7 @@
   background-image: url(../imagenes/fondo1.jpg); }
 
 .nav1 {
-  border: 1px solid white;
+  border: 1.6px solid black;
   background-image: url(../imagenes/fondo1.jpg);
   padding: 20px;
   display: flex;
@@ -69,6 +69,23 @@
   padding: 1.5rem;
   font-size: 28px;
   font-family: Georgia, 'Times New Roman', Times, serif; }
+
+.section3 {
+  background: #262a2a;
+  background: linear-gradient(0deg, #262a2a 0%, black 100%);
+  color: aliceblue;
+  padding: 1.5rem;
+  font-size: 28px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding-left: 9rem; }
+
+.section12 {
+  background: #262a2a;
+  background: linear-gradient(0deg, #262a2a 0%, black 100%); }
+
+.labelform {
+  color: gray;
+  font-size: 20px; }
 
 .section1_video {
   width: 100%;
@@ -100,7 +117,8 @@ background: linear-gradient(45deg, rgba(44,68,3,1) 51%, rgba(161,180,26,1) 100%)
 
 .inicio2 {
   padding-top: 45px;
-  background-color: black;
+  background: #454e4e;
+  background: radial-gradient(circle, #1d1f1f 0%, black 100%);
   color: beige;
   display: flex;
   flex-direction: row;
@@ -114,11 +132,19 @@ background: linear-gradient(45deg, rgba(44,68,3,1) 51%, rgba(161,180,26,1) 100%)
 
 .inicio2_ {
   padding: 25px;
-  background-color: black;
+  background: #454e4e;
+  background: radial-gradient(circle, #1d1f1f 0%, black 100%);
   color: beige;
   font-size: larger;
   display: flex;
   justify-content: center; }
+
+.botoncito {
+  padding-top: 1rem;
+  padding-left: 15rem; }
+
+.util {
+  padding-top: 2rem; }
 
 /* incorporaciones */
 .titulo {
@@ -253,11 +279,12 @@ background: linear-gradient(45deg, rgba(44,68,3,1) 51%, rgba(161,180,26,1) 100%)
 
 .seccionfotos {
   background: #454e4e;
-  background: radial-gradient(circle, #1d1f1f 0%, black 100%); }
+  background: radial-gradient(circle, #1d1f1f 0%, black 100%);
+  border: 1.6px solid #a1a1a1; }
 
 .seccion1gal {
-  background: #131414;
-  background: linear-gradient(0deg, #e9ecec 0%, black 100%);
+  background: #262a2a;
+  background: linear-gradient(0deg, #868686 0%, black 100%);
   text-align: center;
   color: aliceblue;
   font-family: 'Times New Roman', Times, serif; }
@@ -307,11 +334,26 @@ background: linear-gradient(45deg, rgba(44,68,3,1) 51%, rgba(161,180,26,1) 100%)
   font-weight: bold;
   padding: 0.75rem; }
 
-.imgbanda {
-  background-color: #121212;
-  display: flex;
-  justify-content: space-evenly;
-  padding: 1rem; }
+.superiorcancionero {
+  padding-top: 10px;
+  background: #454e4e;
+  background: radial-gradient(circle, #1d1f1f 0%, black 100%);
+  text-align: center; }
+
+.titulocan {
+  color: aliceblue;
+  font-size: 25px;
+  font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: beige; }
+
+.subtcan {
+  color: aliceblue;
+  font-size: 20px;
+  font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  padding-bottom: 1rem; }
+
+.seccioncancionero {
+  background-image: url(/imagenes/fondo1.jpg); }
 
 /* tablet*/
 /* mobile*/
