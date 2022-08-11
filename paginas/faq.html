@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="../CSS/bootstrap.min.css">
     <link rel="stylesheet" href="../CSS/estilos.css">
 </head>
-<body>
+<body class="seccionfotos1">
     <header>
         <div  class="encabezado"> <!--Parte superior con texto de bienvenida e imagenes -->
             <a href="../index.html">  
@@ -21,18 +21,24 @@
         </div>
 
 
-        <section >
-            <div> <!--header con los enlaces a las distintas paginas -->
-                <nav class="nav1">  
-                    <ul class="nav1">
-                   <li><a class="nav2" href="../index.html">INICIO</a> </li>
-                   <li><a class="nav2" href="/paginas/incorporacion.html">INCORPORACION</a></li>
-                   <li><a class="nav2" href="/paginas/faq.html">FaQ</a></li>
-                   <li><a class="nav2" href="/paginas/galeria.html">GALERIA</a></li>
-                   <li><a class="nav2" href="/paginas/cancionero.html">CANCIONERO</a></li>
-                    </ul>
-                </nav>
-            </div>
+        <section class="seccionav">
+            <ul class="nav">
+                <li class="nav-item navlinks">
+                  <a class="nav-link " href="../index.html">INICIO</a>
+                </li>
+                <li class="nav-item navlinks">
+                  <a class="nav-link" href="../paginas/incorporacion.html">INCORPORACIONES</a>
+                </li>
+                <li class="nav-item navlinks">
+                  <a class="nav-link" href="../paginas/faq.html">FaQ</a>
+                </li>
+                <li class="nav-item navlinks">
+                  <a class="nav-link" href="../paginas/galeria.html">GALERIA</a>
+                </li>
+                <li class="nav-item navlinks">
+                    <a class="nav-link" href="../paginas/cancionero.html">CANCIONERO</a>
+                  </li>
+              </ul>
         </section>
     </header>
 
@@ -43,25 +49,31 @@
             </div>
 
             <div class="preguntas">
-                <h2>Pregunta X</h2>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima in et error commodi tempora nam, quod eum ipsum, nostrum aliquam qui magni ut id at, saepe beatae sequi? Facilis, dolor!</p>
-                <h2>Pregunta X</h2>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima in et error commodi tempora nam, quod eum ipsum, nostrum aliquam qui magni ut id at, saepe beatae sequi? Facilis, dolor!</p>
-                <h2>Pregunta X</h2>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima in et error commodi tempora nam, quod eum ipsum, nostrum aliquam qui magni ut id at, saepe beatae sequi? Facilis, dolor!</p>
-                <h2>Pregunta X</h2>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima in et error commodi tempora nam, quod eum ipsum, nostrum aliquam qui magni ut id at, saepe beatae sequi? Facilis, dolor!</p>
-                <h2>Pregunta X</h2>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima in et error commodi tempora nam, quod eum ipsum, nostrum aliquam qui magni ut id at, saepe beatae sequi? Facilis, dolor!</p>
-                <h2>Pregunta X</h2>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima in et error commodi tempora nam, quod eum ipsum, nostrum aliquam qui magni ut id at, saepe beatae sequi? Facilis, dolor!</p>
+                <h2>¿Existen requisitos excluyentes para ingresar al Ejercito Argentino?</h2>
+                <p>Si,cada instituto de formacion de nuestro Ejercito tiene sus propios requisitos, te recomendamos ingresar a la pagina oficial de cada uno de ellos para conocer a detalle las exigencias de los mismos. Podes hacerlo ingresando desde la seccion <a href="../paginas/incorporacion.html">INCORPORACIONES.</a> </p>
+                <hr>
+                <h2>¿Puedo ingresar a las Fuerzas si soy menor de edad?</h2>
+                <p>No, para cualquiera de las fuerzas armadas de nuestro pais, es necesario que el postulante tenga 18 años como minimo</p>
+                <hr>
+                <h2>El Ejercito Argentino, ¿cuenta con sedes en mi provincia?</h2>
+                <p>Nuestro Ejercito cuenta con regimientos, batallones, brigadas y divisiones en toda region de nuestro pais, podes acercarte a cualquiera de ellos para dejar tu documentacion e iniciar los tramites para formar parte de nuestras filas.</p>
+                <hr>
+                <h2>El Ejercito Argentino, cuenta con obra social?</h2>
+                <p>Si, cada integrante de cualquiera de nuestras fuerzas armadas, una vez dado de alta, automaticamente iniciara los tramites para ser cubierto con la obra social de las fuerzas armadas (IOSFA).</p>
+                <hr>
+                <h2>¿Necesito tener estudios para ingresar?</h2>
+                <p>Para el ingreso a cualquiera de las fuerzas armadas de este pais, es necesario tener estudios primarios completos y secundarios solo debiendo dos (2) materias como maximo, la unica excepcion a esta regla sera en caso de ingreso como soldado voluntario, donde habra una tolerancia de dos años en la fuerza para terminar los estudios faltantes.</p>
+                <hr>
+                <h2>¿Puedo ingresar al Ejercito si soy profesional en otras areas?</h2>
+                <p>Es requisito fundamental que el ingresante no perciba haberes de otras profesiones, el Ejercito cuenta con especializaciones propias para medicos, abogados, programadores, veterinarios, profesores de educacion fisica y cocineros.</p>
+                <hr>
             </div>
         </section>
 
         <section class="section3">
             <div class="container">
                 <div class="row">
-                    <div class="col-6 util">
+                    <div class="col-12  util">
                         <h3>¿Te resultó util esta informacion?<h3>
                             <div class="form-check form-check-inline">
                                 <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
@@ -73,7 +85,7 @@
                               </div>
                               
                     </div>
-                    <div class="col-6 util">
+                    <div class="col-12 util">
                         <div class="form-floating">
                             <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 125px"></textarea>
                             <label class="labelform" for="floatingTextarea2">Ayudanos sugiriendo preguntas nuevas</label>

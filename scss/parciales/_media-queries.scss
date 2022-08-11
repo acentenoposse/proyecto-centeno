@@ -1,6 +1,21 @@
  /* tablet*/
  @media screen and (max-width: 1023px){
-
+    .seccionav{
+        padding-left: 0;
+        
+    }
+    .navlinks a{
+        font-size: 16px;
+    }
+    .botoncito{
+        padding-left: 0rem;
+    }
+    .util{
+        padding-left: 0px;
+    }
+    .section1_parrafo{
+        font-size: 18px;
+    }
 }
 
 
@@ -8,7 +23,7 @@
 @media screen and (max-width: 599px){
     .encabezado{
         text-align: center;
-        font-size: 4px;
+        font-size: 12px;
         color: rgb(240, 241, 241);
     }
 
@@ -18,7 +33,7 @@
     }
 
     .nav1{
-    font-size: 5px;
+    font-size: 12px;
     
     }
 
@@ -36,7 +51,7 @@
     }
 
     .inicio1__texto{
-        font-size: 9px;
+        font-size: 12px;
         display: block;
         padding: 0;
     }
@@ -47,10 +62,10 @@
 
     }
     .inicio2_ span{
-        font-size: 10px;
+        font-size: 12px;
     }
     .footer{
-        font-size: 9px;
+        font-size: 12px;
     }
     .footer_ img{
         width: 20px;
@@ -66,7 +81,7 @@
         text-align: center;
     }
     .enlacesinco_1 a{
-        font-size: 10px;
+        font-size: 12px;
         text-align: center;
     }
     .subtitulo2{
@@ -89,10 +104,10 @@
     }
 
     .preguntas{
-        font-size: 14px;
+        font-size: 16px;
     }
     .preguntas p{
-        font-size: 12px;
+        font-size: 15px;
     }
     .titulogaleria{
         font-size: 18px;
@@ -113,4 +128,22 @@
     width: 150px;
     height: 75px;
 }
+   
+
+    .botoncito{
+        padding-left: 0rem;
     }
+    .seccionav{
+        padding-left: 0;
+        
+    }
+    .navlinks a{
+        font-size: 14px;
+    }
+    .util{
+       padding: auto;
+    }
+    .section1_parrafo{
+        font-size: 18px;
+    }
+}
