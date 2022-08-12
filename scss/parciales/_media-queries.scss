@@ -16,6 +16,10 @@
     .section1_parrafo{
         font-size: 18px;
     }
+    .botoncito1{
+        margin-left: 16rem;
+        margin-top: 15px;
+    }
 }
 
 
@@ -67,10 +71,7 @@
     .footer{
         font-size: 12px;
     }
-    .footer_ img{
-        width: 20px;
-        height: 20px;
-    }
+    
 
     .titulo{
         font-size: 14px;
@@ -130,9 +131,9 @@
 }
    
 
-    .botoncito{
-        padding-left: 0rem;
-    }
+.botoncito{
+    margin-left: 0rem;
+}
     .seccionav{
         padding-left: 0;
         
@@ -145,5 +146,14 @@
     }
     .section1_parrafo{
         font-size: 18px;
+    }
+    .botoncito1{
+        margin-left: 0rem;
+        margin-top: 0px;
+    }
+    .textofooter{
+        color: white;
+        font-weight: bolder;
+        font-size: 14px;
     }
 }
