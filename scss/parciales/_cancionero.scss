@@ -2,7 +2,7 @@
     background-image: url(../imagenes/fondo1.jpg);  
     text-align: center;
     font-size: 18px;
-    color: aliceblue;
+    color: $colorFuente;
     font-weight: bold;
     padding: 0.75rem;
 }
@@ -15,15 +15,14 @@ text-align: center;
 
 }
 .titulocan{
-    color: aliceblue;
     font-size: 25px;
 font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-color: beige;
+color: $colorFuente;
 
 }
 
 .subtcan{
-    color: aliceblue;
+    color: $colorFuente;
     font-size: 20px;
 font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
 padding-bottom: 1rem; 

@@ -7,7 +7,7 @@
   text-align: center;
   justify-content: space-evenly;
   font-size: medium;
-  color: white;
+  color: #e4e4e4;
   font-family: Georgia, 'Times New Roman', Times, serif;
   text-transform: uppercase;
   font-weight: bold; }
@@ -23,7 +23,7 @@
 
 .encabezado {
   padding: 1rem;
-  color: #e5e5ce;
+  color: #e4e4e4;
   background: #454e4e;
   background: radial-gradient(circle, #1d1f1f 0%, black 100%);
   text-align: justify;
@@ -38,35 +38,10 @@
 .seccionfotos1 {
   background-image: url(../imagenes/fondo1.jpg); }
 
-.nav1 {
-  border: 1.6px solid black;
-  background-image: url(../imagenes/fondo1.jpg);
-  padding: 20px;
-  display: flex;
-  justify-content: center;
-  font-weight: bolder;
-  text-decoration: none;
-  list-style-type: none; }
-
-.nav a {
-  color: aliceblue;
-  text-decoration: none;
-  font-size: larger;
-  font-family: 'Roboto Slab', serif; }
-
-.nav2 {
-  margin-left: 20px;
-  text-decoration: none;
-  transition: font-size 0.5s;
-  font-family: Arial, Helvetica, sans-serif; }
-
-.nav2:hover {
-  font-size: 2rem; }
-
 .section1 {
   background: #2c4403;
-  background: linear-gradient(45deg, #444303 51%, #b4981a 100%);
-  color: aliceblue;
+  background: linear-gradient(45deg, #443e03 51%, #c5a61c 100%);
+  color: #e4e4e4;
   padding: 1.5rem;
   font-size: 28px;
   font-family: Georgia, 'Times New Roman', Times, serif; }
@@ -74,7 +49,7 @@
 .section3 {
   background: #262a2a;
   background: linear-gradient(0deg, #262a2a 0%, black 100%);
-  color: aliceblue;
+  color: #e4e4e4;
   padding: 1.5rem;
   font-size: 28px;
   font-family: Georgia, 'Times New Roman', Times, serif; }
@@ -112,7 +87,7 @@ background: linear-gradient(45deg, rgba(44,68,3,1) 51%, rgba(161,180,26,1) 100%)
   font-family: 'Times New Roman', Times, serif;
   font-weight: bold;
   display: flex;
-  color: beige;
+  color: #e4e4e4;
   text-align: center;
   max-width: 750px;
   padding: 100px; }
@@ -121,7 +96,7 @@ background: linear-gradient(45deg, rgba(44,68,3,1) 51%, rgba(161,180,26,1) 100%)
   padding-top: 45px;
   background: #454e4e;
   background: radial-gradient(circle, #1d1f1f 0%, black 100%);
-  color: beige;
+  color: #e4e4e4;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly; }
@@ -136,7 +111,7 @@ background: linear-gradient(45deg, rgba(44,68,3,1) 51%, rgba(161,180,26,1) 100%)
   padding: 25px;
   background: #454e4e;
   background: radial-gradient(circle, #1d1f1f 0%, black 100%);
-  color: beige;
+  color: #e4e4e4;
   font-size: larger;
   display: flex;
   justify-content: center; }
@@ -150,7 +125,7 @@ background: linear-gradient(45deg, rgba(44,68,3,1) 51%, rgba(161,180,26,1) 100%)
 
 .navlinks a {
   font-size: 22px;
-  color: aliceblue;
+  color: #e4e4e4;
   font-family: 'Asap', sans-serif;
   padding: 1.5rem;
   font-weight: bold; }
@@ -161,16 +136,31 @@ background: linear-gradient(45deg, rgba(44,68,3,1) 51%, rgba(161,180,26,1) 100%)
 .texto {
   font-family: 'Asap', sans-serif; }
 
-.textofooter {
-  color: black;
-  font-weight: bolder;
-  font-size: 18px; }
-
 .form-check-label {
   font-size: 22px; }
 
 .form-label {
   font-size: 22px; }
+
+.imagenfooter {
+  transition: all 0.7s; }
+
+.imagenfooter:hover {
+  transform: scale(1.4);
+  rotate: 360deg; }
+
+.textofooter {
+  color: black;
+  font-weight: bolder;
+  font-size: 18px;
+  transition: all 0.8s; }
+
+.textofooter:hover {
+  font-size: 22px;
+  font-weight: bolder; }
+
+.pruebap {
+  color: #e4e4e4; }
 
 /* incorporaciones */
 .titulo {
@@ -180,14 +170,14 @@ background: linear-gradient(45deg, rgba(44,68,3,1) 51%, rgba(161,180,26,1) 100%)
   justify-content: center;
   background: #2d3030;
   background: radial-gradient(circle, #141414 0%, black 100%);
-  color: beige;
+  color: #e4e4e4;
   padding: 1rem;
   margin-bottom: 0rem; }
 
 .subtitulo {
   font-size: 25px;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  color: beige;
+  color: #e4e4e4;
   text-transform: uppercase;
   padding-left: 1.5rem;
   text-decoration: none; }
@@ -199,7 +189,7 @@ background: linear-gradient(45deg, rgba(44,68,3,1) 51%, rgba(161,180,26,1) 100%)
 
 .enlacesinco_1 a {
   font-size: 18px;
-  color: beige;
+  color: #e4e4e4;
   text-decoration: none;
   padding: 0rem;
   text-align: left; }
@@ -213,63 +203,14 @@ background: linear-gradient(45deg, rgba(44,68,3,1) 51%, rgba(161,180,26,1) 100%)
   display: flex;
   justify-content: center;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  color: white;
+  color: #e4e4e4;
   padding: 1.5rem; }
-
-.sectionform {
-  background: #2c4403;
-  background: linear-gradient(45deg, #444303 51%, #b4981a 100%);
-  color: beige;
-  text-decoration: none;
-  list-style-type: none;
-  font-size: 22px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(5, auto);
-  grid-template-areas: "for1 for5" "for2 for5" "for3 for6" "for4 for6" "for7 for7"; }
-
-.for1 {
-  grid-area: for1;
-  justify-self: center;
-  align-self: center; }
-
-.for2 {
-  grid-area: for2;
-  justify-self: center;
-  align-self: center; }
-
-.for3 {
-  grid-area: for3;
-  justify-self: center;
-  align-self: center;
-  font-size: large; }
-
-.for4 {
-  grid-area: for4;
-  justify-self: center;
-  align-self: center;
-  font-size: large; }
-
-.for5 {
-  grid-area: for5;
-  font-size: medium; }
-
-.for6 {
-  grid-area: for6;
-  justify-self: center;
-  align-self: center; }
-
-.for7 {
-  grid-area: for7;
-  justify-self: center;
-  align-self: center; }
 
 .preguntas {
   background: #2c4403;
   background: linear-gradient(45deg, #444303 51%, #b4981a 100%);
   font-size: 22px;
-  color: azure;
+  color: #e4e4e4;
   padding: 1rem; }
 
 .preguntas p {
@@ -283,7 +224,7 @@ background: linear-gradient(45deg, rgba(44,68,3,1) 51%, rgba(161,180,26,1) 100%)
 .infoutil {
   background-color: #131313;
   padding: 1rem;
-  color: azure;
+  color: #e4e4e4;
   list-style-type: none;
   display: grid;
   grid-template-areas: "form1 form2 fomr3";
@@ -310,7 +251,7 @@ background: linear-gradient(45deg, rgba(44,68,3,1) 51%, rgba(161,180,26,1) 100%)
 
 .subtgaleria {
   background-color: #131212;
-  color: beige;
+  color: #e4e4e4;
   text-align: center;
   font-size: 20px;
   padding-bottom: 1rem;
@@ -318,14 +259,13 @@ background: linear-gradient(45deg, rgba(44,68,3,1) 51%, rgba(161,180,26,1) 100%)
 
 .seccionfotos {
   background: #454e4e;
-  background: radial-gradient(circle, #1d1f1f 0%, black 100%);
-  border: 1.6px solid #a1a1a1; }
+  background: radial-gradient(circle, #1d1f1f 0%, black 100%); }
 
 .seccion1gal {
   background: #262a2a;
   background: linear-gradient(0deg, #868686 0%, black 100%);
   text-align: center;
-  color: aliceblue;
+  color: #e4e4e4;
   font-family: 'Times New Roman', Times, serif; }
 
 .seccion1gal_text {
@@ -359,13 +299,13 @@ background: linear-gradient(45deg, rgba(44,68,3,1) 51%, rgba(161,180,26,1) 100%)
 .galeriacmn {
   background: #2c4403;
   background: linear-gradient(45deg, #444303 51%, #b4981a 100%);
-  color: aliceblue;
+  color: #e4e4e4;
   text-align: center; }
 
 .subtitulogaleria {
   background: #2c4403;
   background: linear-gradient(45deg, #444303 51%, #b4981a 100%);
-  color: azure;
+  color: #e4e4e4;
   padding-bottom: 1rem;
   text-align: center; }
 
@@ -373,7 +313,7 @@ background: linear-gradient(45deg, rgba(44,68,3,1) 51%, rgba(161,180,26,1) 100%)
   background-image: url(../imagenes/fondo1.jpg);
   text-align: center;
   font-size: 18px;
-  color: aliceblue;
+  color: #e4e4e4;
   font-weight: bold;
   padding: 0.75rem; }
 
@@ -384,13 +324,12 @@ background: linear-gradient(45deg, rgba(44,68,3,1) 51%, rgba(161,180,26,1) 100%)
   text-align: center; }
 
 .titulocan {
-  color: aliceblue;
   font-size: 25px;
   font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  color: beige; }
+  color: #e4e4e4; }
 
 .subtcan {
-  color: aliceblue;
+  color: #e4e4e4;
   font-size: 20px;
   font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   padding-bottom: 1rem; }
@@ -419,7 +358,7 @@ background: linear-gradient(45deg, rgba(44,68,3,1) 51%, rgba(161,180,26,1) 100%)
   .encabezado {
     text-align: center;
     font-size: 12px;
-    color: #f0f1f1; }
+    color: #e4e4e4; }
   .encabezado img {
     height: 20px;
     width: 20px; }
@@ -493,6 +432,6 @@ background: linear-gradient(45deg, rgba(44,68,3,1) 51%, rgba(161,180,26,1) 100%)
     margin-left: 0rem;
     margin-top: 0px; }
   .textofooter {
-    color: white;
+    color: #e4e4e4;
     font-weight: bolder;
     font-size: 14px; } }

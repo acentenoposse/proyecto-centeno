@@ -12,7 +12,7 @@
 
     .subtgaleria{
         background-color: rgb(19, 18, 18);
-        color: beige;
+        color: $colorFuente;
         text-align: center;
         font-size: 20px;
         padding-bottom: 1rem;
@@ -23,13 +23,13 @@
         .seccionfotos {
             background: #454e4e;
             background: radial-gradient(circle, #1d1f1f 0%, black 100%);
-            border: 1.6px solid rgb(161, 161, 161); }
+            }
           
           .seccion1gal {
             background: rgb(38,42,42);
           background: linear-gradient(0deg, rgb(134, 134, 134) 0%, rgba(0,0,0,1) 100%);
             text-align: center;
-            color: aliceblue;
+            color: $colorFuente;
             font-family: 'Times New Roman', Times, serif;   
         }
 
@@ -72,7 +72,7 @@ background: linear-gradient(45deg, rgb(68, 67, 3) 51%, rgb(180, 152, 26) 100%);
         .galeriacmn{
             background: rgb(44,68,3);
 background: linear-gradient(45deg, rgb(68, 67, 3) 51%, rgb(180, 152, 26) 100%);
-            color: aliceblue;
+color: $colorFuente;
             text-align: center;
 
         }
@@ -80,7 +80,7 @@ background: linear-gradient(45deg, rgb(68, 67, 3) 51%, rgb(180, 152, 26) 100%);
         .subtitulogaleria{
             background: rgb(44,68,3);
 background: linear-gradient(45deg, rgb(68, 67, 3) 51%, rgb(180, 152, 26) 100%);
-            color: azure;
+color: $colorFuente;
             padding-bottom: 1rem;
             text-align: center;
         }

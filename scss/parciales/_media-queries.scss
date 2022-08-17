@@ -28,7 +28,7 @@
     .encabezado{
         text-align: center;
         font-size: 12px;
-        color: rgb(240, 241, 241);
+        color: $colorFuente;
     }
 
     .encabezado img {
@@ -152,7 +152,7 @@
         margin-top: 0px;
     }
     .textofooter{
-        color: white;
+        color: $colorFuente;
         font-weight: bolder;
         font-size: 14px;
     }
